@@ -41,6 +41,8 @@
 | CSS | Añade estilo a la estructura web |
 | XML | Muestra en web una estructura completamente legible y personalizable |
 
-***Curso académico 2026-2027***
 ***[Este primer README ha sido creado con ayuda de este enlace](https://github.com/sperrodj/LND/blob/main/UNIDAD-1/Apuntes/chuleta-markdown-1daw.md)***
+
+El archivo principal se llama `README.md`
 ---
+***Curso académico 2026-2027***
