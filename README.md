@@ -18,8 +18,10 @@
  10. **UT10**. CSS: presentación y diseño adaptable
  11. **UT11**. JavaScript y manipulación del DOM
 
-> La organización del repositorio estará compuesta por carpetas asignadas con el nombre de la unidad con sus dichas subcarpetas de actividades y apuntes 
+> La organización del repositorio estará compuesta por carpetas asignadas con el nombre de la unidad con sus dichas subcarpetas de actividades y apuntes
+---
 > En este curso se utilizará diferentes lenguajes de marcas y usaremos como herramienta para aprender dichos lenguajes Visual Studio Code, etc.
+
 ```html
 <h1> Hola, LND </h1>
 <p> Este es el módulo de Lenguaje de Marcas </p>
@@ -28,7 +30,16 @@
 ### Lista de seguimiento de actividades
 
 - [x] Repositorio creado
+- [x] Dirección al repositorio enviado
 - [ ] Primera práctica terminada
+
+#### Posibles lenguajes de marcas dados en el curso
+
+| Lenguaje | Descripción |
+| --- | --- |
+| HTML | Estructura información en la web |
+| CSS | Añade estilo a la estructura web |
+| XML | Muestra en web una estructura completamente legible y personalizable |
 
 ***Curso académico 2026-2027***
 ***[Este primer README ha sido creado con ayuda de este enlace](https://github.com/sperrodj/LND/blob/main/UNIDAD-1/Apuntes/chuleta-markdown-1daw.md)***
