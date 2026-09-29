@@ -1,1 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo actualizado="2026-09-29">
+  <videojuego id="V001" disponible="true">
+    <titulo>Hollow Knight</titulo>
+    <desarrolladora>Team Cherry</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+    </plataformas>
+    <precio moneda="EUR">14.99</precio>
+  </videojuego>
 
+  <videojuego id="V002" disponible="true">
+    <titulo>Celeste</titulo>
+    <desarrolladora>Extremely OK Games</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+    </plataformas>
+    <precio moneda="EUR">19.99</precio>
+  </videojuego>
+</catalogo>
+<!-- Juego añadido durante la sesión de introducción -->
+ <videojuego id="V003" disponible="true">
+    <titulo>Megabonk</titulo>
+    <desarrolladora>Vedinad</desarrolladora>
+   <descripción>¡Arrasa con oleadas infinitas de enemigos y vuélvete absurdamente poderoso! Agarra loot, sube de nivel, desbloquea personajes y haz upgrades para crear builds únicas y locas mientras te enfrentas a hordas de criaturas.</descripción>
+    <plataformas>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <precio moneda="EUR">9.75</precio>
+  </videojuego>
+</catalogo>
+
+ <videojuego id="V004" disponible="true">
+    <titulo>League of Legends</titulo>
+    <desarrolladora>Riot Games</desarrolladora>
+   <descripcion>League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.</descripcion>
+    <plataformas>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <precio moneda="EUR">0</precio>
+  </videojuego>
+</catalogo>
+
+<videojuego id="V005" disponible="true">
+    <titulo>Bolp Battle</titulo>
+    <desarrolladora>Johan Grönvall</desarrolladora>
+    <descripcion> Un juego de sofá/online donde peleas con tus amigos con habilidades únicas y alocadas.</descripcion>
+    <plataformas>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <precio moneda="EUR">9.75</precio>
+  </videojuego>
+</catalogo>
+
+<videojuego id="V006" disponible="true">
+    <titulo>Terraria</titulo>
+    <desarrolladora>Re-Logic</desarrolladora>
+    <descripcion>¡Cava, lucha, explora, construye! Con este juego de aventuras repleto de acción nada es imposible.</descricion>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+      <plataforma>Mobile</plataforma>
+      <plataforma>PS4</plataforma>
+    </plataformas>
+    <precio moneda="EUR">9.75</precio>
+  </videojuego>
+</catalogo>
+
+<videojuego id="V007" disponible="true">
+    <titulo>Dead by Daylight</titulo>
+    <desarrolladora>Behaviour</desarrolladora>
+    <descripcion>Dead by Daylight es un juego de horror de multijugador (4 contra 1) en el que un jugador representa el rol del asesino despiadado y los 4 restantes juegan como supervivientes</descripcion>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>PS4-PS5</plataforma>
+      <plataforma>SWITCH</plataforma>
+      <plataforma>Mobile</plataforma>
+    </plataformas>
+    <precio moneda="EUR">19.99</precio>
+  </videojuego>
+</catalogo>
+
+<videojuego<id="V008" disponible="true">
+<titulo>Supermarket Together</titulo>
+    <desarrolladora>DeadDevsTellNoLies</desarrolladora>
+    <descripcion>¡El supermercado multijugador ya ha llegado a tu ciudad... gratis! Repón las mercancias, desbloquea franquicias, contrata a trabajadores o caza a los ladrones. ¡Cuántos más jugadores, más rápida va la acción!</descripcion>
+    <plataformas>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <precio moneda="EUR">0</precio>
+  </videojuego>
+</catalogo>
+
+<videojuego<id="V009" disponible="true">
+<titulo>RV There Yet?</titulo>
+    <desarrolladora>Nuggets Entertainment</desarrolladora>
+    <descripcion>Una aventura cooperativa que consiste en conducir una autocaravana de vuelta a casa.</descripcion>
+    <plataformas>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <precio moneda="EUR">7.79</precio>
+  </videojuego>
+</catalogo>
+
+<videojuego<id="V010" disponible="true">
+<titulo>Until Then</titulo>
+    <desarrolladora>Polychroma Games</desarrolladora>
+    <descripcion>Un fatídico encuentro pone patas arriba la vida de Mark. La gente desaparece y los recuerdos son poco fiables. Descubre una verdad oculta con Mark y sus amigos en esta aventura. Date prisa para desvelar el misterio antes de que sea demasiado tarde.</descripcion>
+    <plataformas>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <precio moneda="EUR">19.50</precio>
+  </videojuego>
+</catalogo>
