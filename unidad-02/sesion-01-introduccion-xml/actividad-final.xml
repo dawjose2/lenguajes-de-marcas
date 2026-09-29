@@ -8,7 +8,7 @@
     <habilidades> Sobrecarga gamma </habilidades>
   <heroe id="003"> Venom </heroe>
     <habilidades> Llegada frenética </habilidades>
-</Viojuego>
+</Videojuego>
 
 <Videojuego>
   <titulo>League of Legends</titulo>
@@ -20,6 +20,7 @@
     <campeon id="006"> Chogath' </campeon>
       <rol> Toplaner </rol>
   </campeones>
+</Videojuego>
 <Anime>
   <titulo> Jujutsu Kaisen </titulo>
   <Personajes>
@@ -31,6 +32,7 @@
       <tecnica>Técnica de las Diez Sombras</tecnica>
   </Personajes>
 </Anime>
+
 <Deporte>
   <competicion>Copa del mundo</competicion>
     <equipos>
@@ -42,4 +44,5 @@
         <jugador>Bellingham</jugador>
         <jugador>Harry Kane</jugador>
         <jugador>Ollie Watkins</jugador>
-    </equipo>
+    </equipos>
+</Deporte>
