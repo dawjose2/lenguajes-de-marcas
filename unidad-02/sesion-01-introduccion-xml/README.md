@@ -47,3 +47,14 @@ videojuego, titulo con su respectivo titulo, desarrolladora, genero y precio.
 2. La id de valor en el código es un numero de identificación que no se puede repetir en cada videojuego en este caso en cambio el titulo puede ser repetido en un mismo juego.
 3. Pues han sido utilizados 10 elementos de videojuego y 16 elementos de plataformas.
 4. He modificado y creado un elemento llamado descripción y he modificado el precio en ciertos videojuegos en los que son de gratuito uso.
+
+## 5. Laboratorio de errores
+
+![Errores detectados por VS Code](img/03-error-xml.png)
+| Error detectado | Regla que incumple | Corrección realizada |
+|---|---|---|
+| El valor del atributo de id está mal escrito | No tiene las comillas correspondientes | Colocar las comillas en el valor de id="H01" |
+| El elemento de alias no corresponde con la etiqueta de cierre | No tiene mayúsculas | Añadir una mayúscula a la primera etiqueta o quitar la primera mayúscula de la etiqueta de cierre por una minuscula |
+| La etiqueta nombre no tiene la etiqueta de cierre | Necesita terminar la etiqueta nombre con su etiqueta de cierre | Añadir la etiqueta de cierre nombre |
+| El símbolo & no se utiliza de esa forma en XML | La utilización de & | En vez del simbolo & en xml se puede escribir la etiqueta habilidad -> Tecnologia ;amp; Estrategia y la etiqueta de cierre de habilidad |
+
