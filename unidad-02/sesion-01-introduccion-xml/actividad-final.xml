@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <Videojuego>
   <titulo>Marvel Rivals</titulo>
   <universo>Hero shooter gratuito</universo>
@@ -19,8 +20,9 @@
       <rol> Soporte </rol>
     <campeon id="006"> Chogath' </campeon>
       <rol> Toplaner </rol>
-  </campeones>
+  </campeones>  
 </Videojuego>
+
 <Anime>
   <titulo> Jujutsu Kaisen </titulo>
   <Personajes>
