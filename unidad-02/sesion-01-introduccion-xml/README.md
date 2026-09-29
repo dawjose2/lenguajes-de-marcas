@@ -19,17 +19,26 @@ formateo y detección de errores en Visual Studio Code.
 ### Fuentes consultadas
  - [Fuente sobre las bases de datos en XML](https://ayudaleyprotecciondatos.es/bases-de-datos/xml/)
  - [Fuente sobre las funciones de XML](https://aws.amazon.com/es/what-is/xml/)
+ 
+## 3. Mi primer documento XML
 
+![Primer XML abierto en el navegador](img/02-primer-xml.png)
 
-
-
-
-8. Un elemento está compuesto por una etiqueta y un contenido un ejemplo exacto sería
-  ```xml
-" <etiqueta> Contenido </etiqueta> "
-  ```
-Un atributo es quien define a dicha etiqueta dándole parámetros o un valor un ejemplo sería "src" dandole a la etiqueta link un enlace para que el contenido sea redirigido a dicho enlace
+1. Bloque de código en XML
 ```xml
-<link src="https://github.com/dawjose2/lenguajes-de-marcas"> Este es mi repositorio. </link>
+<?xml version="1.0" encoding="UTF-8"?>
+<videojuego>
+  <titulo>Hollow Knight</titulo> 
+  <desarrolladora>Team Cherry</desarrolladora>
+  <genero>Metroidvania</genero>
+  <precio moneda="EUR">14.99</precio>
+</videojuego>
 ```
-4. 
+2. El elemento raiz es "<videojuego>"
+3. Los principales elementos existentes en dicho código son:
+videojuego, titulo con su respectivo titulo, desarrolladora, genero y precio.
+4. El atributo es "moneda" que le da el valor al precio en EUR.
+5. Videojuego es la etiqueta padre y el titulo es la etiqueta hijo que está dentro de videojuego.
+6. Titulo, desarrolladora, genero y precio son elementos hermanos.
+
+
