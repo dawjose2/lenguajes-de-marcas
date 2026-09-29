@@ -41,4 +41,9 @@ videojuego, titulo con su respectivo titulo, desarrolladora, genero y precio.
 5. Videojuego es la etiqueta padre y el titulo es la etiqueta hijo que está dentro de videojuego.
 6. Titulo, desarrolladora, genero y precio son elementos hermanos.
 
+## 4. Ampliación del catálogo
 
+1. Plataformas funcionan como contenedor porque están ampliando el elemento de plataformas padre en elementos hijos que son diferentes contenidos que describen el elemento principal.
+2. La id de valor en el código es un numero de identificación que no se puede repetir en cada videojuego en este caso en cambio el titulo puede ser repetido en un mismo juego.
+3. Pues han sido utilizados 10 elementos de videojuego y 16 elementos de plataformas.
+4. He modificado y creado un elemento llamado descripción y he modificado el precio en ciertos videojuegos en los que son de gratuito uso.
