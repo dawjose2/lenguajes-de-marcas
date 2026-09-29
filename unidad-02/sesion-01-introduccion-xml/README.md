@@ -58,3 +58,57 @@ videojuego, titulo con su respectivo titulo, desarrolladora, genero y precio.
 | La etiqueta nombre no tiene la etiqueta de cierre | Necesita terminar la etiqueta nombre con su etiqueta de cierre | Añadir la etiqueta de cierre nombre |
 | El símbolo & no se utiliza de esa forma en XML | La utilización de & | En vez del simbolo & en xml se puede escribir la etiqueta habilidad -> Tecnologia ;amp; Estrategia y la etiqueta de cierre de habilidad |
 
+## 6. Actividad final independiente
+
+```html
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Videojuego>
+  <titulo>Marvel Rivals</titulo>
+  <universo>Hero shooter gratuito</universo>
+  <heroe id="001"> Gella </heroe>
+    <habilidades> Fuerza Fantástica </habilidades>
+  <heroe id="002"> Ironman </heroe>
+    <habilidades> Sobrecarga gamma </habilidades>
+  <heroe id="003"> Venom </heroe>
+    <habilidades> Llegada frenética </habilidades>
+</Videojuego>
+
+<Videojuego>
+  <titulo>League of Legends</titulo>
+  <campeones> 
+    <campeon id="004"> Jhin </campeon>
+      <rol> Attack Damage Carry (Adc) </rol>
+    <campeon id="005"> Yuumi </campeon>
+      <rol> Soporte </rol>
+    <campeon id="006"> Chogath' </campeon>
+      <rol> Toplaner </rol>
+  </campeones>  
+</Videojuego>
+
+<Anime>
+  <titulo> Jujutsu Kaisen </titulo>
+  <Personajes>
+    <personaje id="007">Gojo</personaje>
+      <tecnica>Técnica de Maldición Ilimitada</tecnica>
+    <personaje id="008">Yuji Itadori</personaje>
+      <tecnica>Manipulación de Sangre</tecnica>
+    <personaje id="009">Megumi Fushiguro</personaje>
+      <tecnica>Técnica de las Diez Sombras</tecnica>
+  </Personajes>
+</Anime>
+
+<Deporte>
+  <competicion>Copa del mundo</competicion>
+    <equipos>
+      <equipo id="010">España</equipo>
+        <jugador>Pedri</jugador>
+        <jugador>Ferrán</jugador>
+        <jugador>Unai</jugador>
+      <equipo id="011">Inglaterra</equipo>
+        <jugador>Bellingham</jugador>
+        <jugador>Harry Kane</jugador>
+        <jugador>Ollie Watkins</jugador>
+    </equipos>
+</Deporte>
+```
