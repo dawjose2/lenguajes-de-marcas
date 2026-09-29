@@ -34,7 +34,7 @@ formateo y detección de errores en Visual Studio Code.
   <precio moneda="EUR">14.99</precio>
 </videojuego>
 ```
-2. El elemento raiz es "<videojuego>"
+2. El elemento raiz es "videojuego"
 3. Los principales elementos existentes en dicho código son:
 videojuego, titulo con su respectivo titulo, desarrolladora, genero y precio.
 4. El atributo es "moneda" que le da el valor al precio en EUR.
