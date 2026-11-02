@@ -19,10 +19,10 @@ xmllint --noout --schema cine.xsd cine.xml
 ## Capturas de pasos realizados
 
 - Captura de la validación del dtd
-![Validaciond de archivo xml con dtd](/img/validacion-dtd.png)
+![Validaciond de archivo xml con dtd](img/validacion-dtd.png)
 
 - Captura de la validación de xsd
-![Validacion de archivo xml con xsd](/img/validacion-xsd.png)
+![Validacion de archivo xml con xsd](img/validacion-xsd.png)
 
 - Captura del error en el dtd con elemento eliminado
 ![Error de archivo xml con dtd](img/error-dtd.png)
