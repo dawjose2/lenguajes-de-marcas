@@ -1,0 +1,45 @@
+<?xml version="1.0" enconding="UTF-8">
+<!DOCTYPE carta SYSTEM "carta.dtd">
+<carta nombre="Platano Canario">
+    <informacion>
+        <nombre>&nombre.local</nombre>
+        <ubicacion>Icod de los vinos, Tenerife</ubicacion>
+    </informacion>
+    <seccion tipo="entrantes">
+        <titulo>Para competir</titulo>
+        <plato id="P01" alergenos="gluten" vegano="false">
+            <nombre>Queso Asado</nombre>
+            <descripcion>Queso canario con mojo rojo</descripcion>
+            <precio moneda="EUR">8.00</precio>
+            <recomendacion plato="P01" />
+        </plato>
+        <plato id="P02" alergenos="gluten" vegano="false">
+            <nombre>Papas arrugadas</nombre>
+            <descripcion>Papas con mojo</descripcion>
+            <precio moneda="EUR">4.00</precio>
+        </plato>
+    </seccion>
+    #!-- Platos de postres
+    <seccion tipo="postres">
+        <titulo>Para finiquitar</titulo>
+        <plato id="P03">
+            <nombre>Polvito Uruguayo</nombre>
+            <descripcion>Polvito Uruguayo</descripcion>
+    
+
+
+</carta>
+
+
+
+
+
+
+# La carta puede contener 0 o mas reservas
+# Cada reserva contiene: cliente, fecha, personas
+# Cada reserva posee un ID obligatorio.
+# Puede referenciar opcionalmente un plato con iDRED
+# El atributo estado admite: pendiente, confirmada o cancelada y por defecto es pendiente, confirmada o candelada y por defecto es pendiente.
+# CLiente, fecha y persona contienen texto.
+
+

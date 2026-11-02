@@ -1,0 +1,20 @@
+<!ELEMENT carta (informacion, seccion+)>
+    <recomendacion #EMPTY>
+<!ELEMENT>
+
+
+
+
+
+
+
+
+
+<!ATTLIST plato
+    id ID #REQUIRED
+    alergenos CDATA #IMPLIED
+    vegano (true | false) "false"
+    recomendado (true | false) "false">
+
+<!ATTLIST precio
+    moneda (EUR | PLZ | GBP) #FIXED "EUR">

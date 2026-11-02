@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cine SYSTEM "cine.dtd">
+<cine id="cine-central" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="carta.xsd">
+    <informacion>
+        <nombre>Cines Central</nombre>
+        <direccion>Gran Vía 42</direccion>
+        <localidad>Madrid</localidad>
+        <telefono>912345678</telefono>
+    </informacion>
+    <cartelera>
+        <pelicula id="peli-1" clasificacion="12" idioma="ES" disponible="true">
+            <titulo>El gran viaje</titulo>
+            <director>Ana Pérez</director>
+            <genero>Aventuras</genero>
+            <duracion>120</duracion>
+            <fecha_estreno>2026-03-15</fecha_estreno>
+            <sinopsis>Una emocionante aventura a través de territorios desconocidos.</sinopsis>
+        </pelicula>
+        <pelicula id="peli-2" clasificacion="18" idioma="VOSE" disponible="true">
+            <titulo>Sombras en la noche</titulo>
+            <director>Marcos Ruiz</director>
+            <genero>Terror</genero>
+            <duracion>500</duracion>
+            <fecha_estreno>2026-04-10</fecha_estreno>
+            <sinopsis>Un thriller oscuro solo apto para mayores de edad.</sinopsis>
+        </pelicula>
+        <pelicula id="peli-3" clasificacion="TP" idioma="ES" disponible="false">
+            <titulo>La gran carrera</titulo>
+            <director>Luis Gómez</director>
+            <genero>Comedia</genero>
+            <duracion>95</duracion>
+            <fecha_estreno>2026-01-20</fecha_estreno>
+            <sinopsis>Una comedia familiar divertida.</sinopsis>
+        </pelicula>
+        <pelicula id="peli-4" clasificacion="16" idioma="ES" disponible="true">
+            <titulo>Misterio en el puerto</titulo>
+            <director>Elena Vega</director>
+            <genero>Suspense</genero>
+            <duracion>105</duracion>
+            <fecha_estreno>2026-05-05</fecha_estreno>
+        </pelicula>
+    </cartelera>
+    <salas>
+        <sala id="sala-1">
+            <nombre_sala>Sala 1</nombre_sala>
+            <capacidad>4</capacidad>
+            <butacas>
+                <butaca id="b-1" tipo="normal">
+                    <fila>A</fila>
+                    <numero>1</numero>
+                </butaca>
+                <butaca id="b-2" tipo="premium">
+                    <fila>A</fila>
+                    <numero>2</numero>
+                </butaca>
+                <butaca id="b-3" tipo="adaptada">
+                    <fila>B</fila>
+                    <numero>1</numero>
+                </butaca>
+                <butaca id="b-4" tipo="normal">
+                    <fila>B</fila>
+                    <numero>2</numero>
+                </butaca>
+            </butacas>
+        </sala>
+        <sala id="sala-2">
+            <nombre_sala>Sala 2</nombre_sala>
+            <capacidad>4</capacidad>
+            <butacas>
+                <butaca id="b-2-1" tipo="normal">
+                    <fila>A</fila>
+                    <numero>1</numero>
+                </butaca>
+                <butaca id="b-2-2" tipo="premium">
+                    <fila>A</fila>
+                    <numero>2</numero>
+                </butaca>
+                <butaca id="b-2-3" tipo="adaptada">
+                    <fila>B</fila>
+                    <numero>1</numero>
+                </butaca>
+                <butaca id="b-2-4" tipo="normal">
+                    <fila>B</fila>
+                    <numero>2</numero>
+                </butaca>
+            </butacas>
+        </sala>
+    </salas>
+    <sesiones>
+        <sesion id="sesion-1" pelicula="peli-1" sala="sala-1">
+            <fecha_proyeccion>2026-03-20</fecha_proyeccion>
+            <hora_inicio>18:30</hora_inicio>
+            <precio moneda="EUR">8.50</precio>
+        </sesion>
+        <sesion id="sesion-2" pelicula="peli-1" sala="sala-2">
+            <fecha_proyeccion>2026-03-20</fecha_proyeccion>
+            <hora_inicio>21:00</hora_inicio>
+            <precio moneda="EUR">9.00</precio>
+        </sesion>
+        <sesion id="sesion-3" pelicula="peli-2" sala="sala-1">
+            <fecha_proyeccion>2026-03-21</fecha_proyeccion>
+            <hora_inicio>22:00</hora_inicio>
+            <precio moneda="EUR">8.50</precio>
+        </sesion>
+        <sesion id="sesion-4" pelicula="peli-4" sala="sala-2">
+            <fecha_proyeccion>2026-03-22</fecha_proyeccion>
+            <hora_inicio>19:00</hora_inicio>
+            <precio moneda="EUR">8.00</precio>
+        </sesion>
+    </sesiones>
+
+    <!-- 2.5. Reservas -->
+    <reservas>
+        <reserva id="res-1" sesion="sesion-1" estado="confirmada">
+            <cliente>
+                <nombre>Carlos Gómez</nombre>
+                <correo>carlos@example.com</correo>
+            </cliente>
+            <fecha_reserva>2026-03-18</fecha_reserva>
+            <entradas>
+                <entrada butaca="b-1" tipo="general"/>
+                <entrada butaca="b-2" tipo="reducida"/>
+            </entradas>
+        </reserva>
+        <reserva id="res-2" sesion="sesion-2" estado="pendiente">
+            <cliente>
+                <nombre>Laura Martín</nombre>
+                <correo>laura@example.com</correo>
+            </cliente>
+            <fecha_reserva>2026-03-19</fecha_reserva>
+            <entradas>
+                <entrada butaca="b-2-1" tipo="general"/>
+            </entradas>
+        </reserva>
+        <reserva id="res-3" sesion="sesion-3" estado="confirmada">
+            <cliente>
+                <nombre>Mario Sanz</nombre>
+                <correo>mario@example.com</correo>
+            </cliente>
+            <fecha_reserva>2026-03-20</fecha_reserva>
+            <entradas>
+                <entrada butaca="b-3" tipo="infantil"/>
+            </entradas>
+        </reserva>
+    </reservas>
+</cine>

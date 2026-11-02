@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cine">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="informacion" type="InformacionTipo"/>
+                <xs:element name="cartelera" type="CarteleraTipo"/>
+                <xs:element name="salas" type="SalasTipo"/>
+                <xs:element name="sesiones" type="SesionesTipo"/>
+                <xs:element name="reservas" type="ReservasTipo"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="InformacionTipo">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="direccion" type="xs:string"/>
+            <xs:element name="localidad" type="xs:string"/>
+            <xs:element name="telefono" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="CarteleraTipo">
+        <xs:sequence>
+            <xs:element name="pelicula" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="titulo" type="xs:string"/>
+                        <xs:element name="director" type="xs:string"/>
+                        <xs:element name="genero" type="xs:string"/>
+                        <xs:element name="duracion">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:integer">
+                                    <xs:minInclusive value="30"/>
+                                    <xs:maxInclusive value="240"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="fecha_estreno" type="xs:date"/>
+                        <xs:element name="sinopsis" type="xs:string" minOccurs="0"/>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                    <xs:attribute name="clasificacion" use="required">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="TP"/>
+                                <xs:enumeration value="7"/>
+                                <xs:enumeration value="12"/>
+                                <xs:enumeration value="16"/>
+                                <xs:enumeration value="18"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                    <xs:attribute name="idioma" use="required">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="ES"/>
+                                <xs:enumeration value="VOSE"/>
+                                <xs:enumeration value="VO"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                    <xs:attribute name="disponible" type="xs:boolean" default="true"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="SalasTipo">
+        <xs:sequence>
+            <xs:element name="sala" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nombre_sala" type="xs:string"/>
+                        <xs:element name="capacidad">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:integer">
+                                    <xs:minInclusive value="1"/>
+                                    <xs:maxInclusive value="300"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="butacas">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="butaca" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="fila" type="xs:string"/>
+                                                <xs:element name="numero">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:integer">
+                                                            <xs:minInclusive value="1"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                            <xs:attribute name="id" type="xs:ID" use="required"/>
+                                            <xs:attribute name="tipo" use="required">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="normal"/>
+                                                        <xs:enumeration value="premium"/>
+                                                        <xs:enumeration value="adaptada"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="SesionesTipo">
+        <xs:sequence>
+            <xs:element name="sesion" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="fecha_proyeccion" type="xs:date"/>
+                        <xs:element name="hora_inicio" type="xs:string"/>
+                        <xs:element name="precio">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="PrecioDecimal">
+                                        <xs:attribute name="moneda" type="xs:string" fixed="EUR" use="required"/>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                    <xs:attribute name="pelicula" type="xs:IDREF" use="required"/>
+                    <xs:attribute name="sala" type="xs:IDREF" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="PrecioDecimal">
+        <xs:restriction base="xs:decimal">
+            <xs:minExclusive value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="ReservasTipo">
+        <xs:sequence>
+            <xs:element name="reserva" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="cliente">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nombre" type="xs:string"/>
+                                    <xs:element name="correo" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="fecha_reserva" type="xs:date"/>
+                        <xs:element name="entradas">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="entrada" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                            <xs:attribute name="butaca" type="xs:IDREF" use="required"/>
+                                            <xs:attribute name="tipo" use="required">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:enumeration value="general"/>
+                                                        <xs:enumeration value="infantil"/>
+                                                        <xs:enumeration value="reducida"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                    <xs:attribute name="sesion" type="xs:IDREF" use="required"/>
+                    <xs:attribute name="estado" use="required">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="pendiente"/>
+                                <xs:enumeration value="confirmada"/>
+                                <xs:enumeration value="cancelada"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
