@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca fecha_actualizacion="2026-11-15">
+<!-- Catálogo de libros juveniles, de fantasía, infantiles y de terror actuales -->
+  <libro id="L001" disponible="true">
+    <titulo>Wigetta: Un viaje mágico</titulo>
+    <autor>
+      <nombre>Willyrex &amp; Vegetta777</nombre>
+      <nacionalidad>Española</nacionalidad>
+    </autor>
+    <anio_publicacion>2015</anio_publicacion>
+    <generos>
+      <genero>Juvenil</genero>
+      <genero>Fantasía</genero>
+    </generos>
+    <editorial>Temas de Hoy</editorial>
+    <formatos>
+      <formato>Tapa dura</formato>
+      <formato>Libro electrónico</formato>
+    </formatos>
+    <precio moneda="EUR">16.95</precio>
+    <valoracion>4.6</valoracion>
+    <saga>Wigetta</saga>
+  </libro>
+
+  <libro id="L002" disponible="true">
+    <titulo>Wigetta y el báculo dorado</titulo>
+    <autor>
+      <nombre>Willyrex &amp; Vegetta777</nombre>
+      <nacionalidad>Española</nacionalidad>
+    </autor>
+    <anio_publicacion>2015</anio_publicacion>
+    <generos>
+      <genero>Juvenil</genero>
+      <genero>Fantasía</genero>
+    </generos>
+    <editorial>Temas de Hoy</editorial>
+    <formatos>
+      <formato>Tapa dura</formato>
+      <formato>Libro electrónico</formato>
+    </formatos>
+    <precio moneda="EUR">16.95</precio>
+    <valoracion>4.7</valoracion>
+    <saga>Wigetta</saga>
+  </libro>
+
+  <libro id="L003" disponible="false">
+    <titulo>Wigetta y el antídoto secreto</titulo>
+    <autor>
+      <nombre>Willyrex &amp; Vegetta777</nombre>
+      <nacionalidad>Española</nacionalidad>
+    </autor>
+    <anio_publicacion>2016</anio_publicacion>
+    <generos>
+      <genero>Juvenil</genero>
+      <genero>Aventuras</genero>
+    </generos>
+    <editorial>Temas de Hoy</editorial>
+    <formatos>
+      <formato>Tapa dura</formato>
+    </formatos>
+    <precio moneda="EUR">16.95</precio>
+    <valoracion>4.5</valoracion>
+    <saga>Wigetta</saga>
+  </libro>
+
+  <libro id="L004" disponible="true">
+    <titulo>Los secretos de YouTube</titulo>
+    <autor>
+      <nombre>TheGrefg</nombre>
+      <nacionalidad>Española</nacionalidad>
+    </autor>
+    <anio_publicacion>2018</anio_publicacion>
+    <generos>
+      <genero>Juvenil</genero>
+      <genero>Ensayo</genero>
+    </generos>
+    <editorial>Martínez Roca</editorial>
+    <formatos>
+      <formato>Tapa blanda</formato>
+      <formato>Libro electrónico</formato>
+    </formatos>
+    <precio moneda="EUR">15.90</precio>
+    <valoracion>4.4</valoracion>
+  </libro>
+
+  <libro id="L005" disponible="true">
+    <titulo>Rescate en el tiempo</titulo>
+    <autor>
+      <nombre>TheGrefg</nombre>
+      <nacionalidad>Española</nacionalidad>
+    </autor>
+    <anio_publicacion>2016</anio_publicacion>
+    <generos>
+      <genero>Juvenil</genero>
+      <genero>Aventuras</genero>
+    </generos>
+    <editorial>Martínez Roca</editorial>
+    <formatos>
+      <formato>Tapa blanda</formato>
+      <formato>Libro electrónico</formato>
+    </formatos>
+    <precio moneda="EUR">14.95</precio>
+    <valoracion>4.3</valoracion>
+  </libro>
+
+  <libro id="L006" disponible="true">
+    <titulo>El secreto del valor</titulo>
+    <autor>
+      <nombre>Geronimo Stilton</nombre>
+      <nacionalidad>Italiana</nacionalidad>
+    </autor>
+    <anio_publicacion>2016</anio_publicacion>
+    <generos>
+      <genero>Infantil</genero>
+      <genero>Fantasía</genero>
+    </generos>
+    <editorial>Destino Infantil &amp; Juvenil</editorial>
+    <formatos>
+      <formato>Tapa dura</formato>
+      <formato>Libro electrónico</formato>
+    </formatos>
+    <precio moneda="EUR">19.95</precio>
+    <valoracion>4.8</valoracion>
+    <saga>Crónicas del Reino de la Fantasía</saga>
+  </libro>
+
+  <libro id="L007" disponible="false">
+    <titulo>La isla de los dinosaurios</titulo>
+    <autor>
+      <nombre>Geronimo Stilton</nombre>
+      <nacionalidad>Italiana</nacionalidad>
+    </autor>
+    <anio_publicacion>2018</anio_publicacion>
+    <generos>
+      <genero>Infantil</genero>
+      <genero>Aventuras</genero>
+    </generos>
+    <editorial>Destino Infantil &amp; Juvenil</editorial>
+    <formatos>
+      <formato>Tapa blanda</formato>
+    </formatos>
+    <precio moneda="EUR">9.95</precio>
+    <valoracion>4.5</valoracion>
+    <saga>Geronimo Stilton</saga>
+  </libro>
+
+  <libro id="L008" disponible="true">
+    <titulo>El instituto</titulo>
+    <autor>
+      <nombre>Stephen King</nombre>
+      <nacionalidad>Estadounidense</nacionalidad>
+    </autor>
+    <anio_publicacion>2019</anio_publicacion>
+    <generos>
+      <genero>Terror</genero>
+      <genero>Thriller</genero>
+    </generos>
+    <editorial>Plaza &amp; Janés</editorial>
+    <formatos>
+      <formato>Tapa dura</formato>
+      <formato>Libro electrónico</formato>
+      <formato>Audiolibro</formato>
+    </formatos>
+    <precio moneda="EUR">22.90</precio>
+    <valoracion>4.6</valoracion>
+  </libro>
+
+  <libro id="L009" disponible="true">
+    <titulo>Nuestra parte de noche</titulo>
+    <autor>
+      <nombre>Mariana Enríquez</nombre>
+      <nacionalidad>Argentina</nacionalidad>
+    </autor>
+    <anio_publicacion>2019</anio_publicacion>
+    <generos>
+      <genero>Terror</genero>
+      <genero>Fantasía</genero>
+    </generos>
+    <editorial>Anagrama</editorial>
+    <formatos>
+      <formato>Tapa blanda</formato>
+      <formato>Libro electrónico</formato>
+    </formatos>
+    <precio moneda="EUR">23.90</precio>
+    <valoracion>4.7</valoracion>
+  </libro>
+
+  <libro id="L010" disponible="true">
+    <titulo>El hombre de tiza</titulo>
+    <autor>
+      <nombre>C. J. Tudor</nombre>
+      <nacionalidad>Británica</nacionalidad>
+    </autor>
+    <anio_publicacion>2018</anio_publicacion>
+    <generos>
+      <genero>Terror</genero>
+      <genero>Thriller</genero>
+    </generos>
+    <editorial>Plaza &amp; Janés</editorial>
+    <formatos>
+      <formato>Tapa blanda</formato>
+      <formato>Libro electrónico</formato>
+      <formato>Audiolibro</formato>
+    </formatos>
+    <precio moneda="EUR">19.90</precio>
+    <valoracion>4.2</valoracion>
+  </libro>
+
+</biblioteca>
