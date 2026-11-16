@@ -1,6 +1,6 @@
 # Sesión autónoma 1. Introducción a XSLT
 
-- Repositorio de la activdad
+- **Repositorio de la activdad**
 ```
 unidad-05/
 └── sesion-01-introduccion-xslt/
