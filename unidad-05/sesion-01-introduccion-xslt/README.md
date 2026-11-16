@@ -114,9 +114,14 @@ unidad-05/
 
 - La transformación incluye un nuevo elemento raiz que se basa en xslt:stylesheet para definir que es una hoja de estilos XSLT, xslt:template match="/" donde indicamos la regla que se aplica desde la raíz del documento XML y xslt:for-each select="catalogo/libro" que recorre cada elemento de cada libro que está dentro del catálogo.
 
+- Webgrafía
 
-https://developer.mozilla.org/es/docs/Web/XML/XSLT/Reference/Element/for-each
-https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/reglas-de-plantilla
-https://programacion.net/articulo/xslt-xsl-xpath-que-es-cada-cosa_1
-https://www.ticarte.com/contenido/que-es-el-lenguaje-de-transformacion-xslt
-https://learn.microsoft.com/es-es/office-project/xml-data-interchange/how-to-use-xslt-transformations-with-project-xml-data-interchange-files?view=project-client-2016
+- [Documentación sobre XSLT](https://developer.mozilla.org/es/docs/Web/XML/XSLT/Reference/Element/for-each)
+
+- [Documentación sobre XSLT](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/reglas-de-plantilla)
+
+- [Documentación sobre XSLT](https://programacion.net/articulo/xslt-xsl-xpath-que-es-cada-cosa_1)
+
+- [Documentación sobre XSLT](https://www.ticarte.com/contenido/que-es-el-lenguaje-de-transformacion-xslt)
+
+- [Documentación sobre XSLT](https://learn.microsoft.com/es-es/office-project/xml-data-interchange/how-to-use-xslt-transformations-with-project-xml-data-interchange-files?view=project-client-2016)
