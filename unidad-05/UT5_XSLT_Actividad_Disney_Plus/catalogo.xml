@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cartelera.xsl"?>
+<cartelera plataforma="Disney+">
+
+  <categoria nombre="Disney">
+    <pelicula id="P001">
+      <titulo>Frozen: El reino del hielo</titulo>
+      <anio>2013</anio>
+      <duracion>102</duracion>
+      <sinopsis>Cuando una profecía condena a un reino a un invierno eterno, la optimista Anna emprende un viaje épico junto al montañero Kristoff para encontrar a su hermana Elsa y romper el hechizo helado.</sinopsis>
+      <reparto>
+        <actor>Kristen Bell</actor>
+        <actor>Idina Menzel</actor>
+        <actor>Josh Gad</actor>
+      </reparto>
+      <imagen>img/frozen1.jpg</imagen>
+    </pelicula>
+
+    <pelicula id="P002">
+      <titulo>Frozen II</titulo>
+      <anio>2019</anio>
+      <duracion>103</duracion>
+      <sinopsis>Elsa escucha una misteriosa voz procedente del norte y viaja junto a Anna, Kristoff, Olaf y Sven hacia un bosque encantado para descubrir el origen de sus poderes mágicos y salvar Arendelle.</sinopsis>
+      <reparto>
+        <actor>Idina Menzel</actor>
+        <actor>Kristen Bell</actor>
+        <actor>Jonathan Groff</actor>
+      </reparto>
+      <imagen>img/frozen2.jpg</imagen>
+    </pelicula>
+
+    <pelicula id="P003">
+      <titulo>Campanilla</titulo>
+      <anio>2008</anio>
+      <duracion>78</duracion>
+      <sinopsis>Campanilla llega a la Hondonada de las Hadas y descubre que su talento es ser hada artesana, aunque intentará cambiar su destino para poder viajar al mundo exterior con sus amigas.</sinopsis>
+      <reparto>
+        <actor>Mae Whitman</actor>
+        <actor>Kristin Chenoweth</actor>
+        <actor>Raven-Symoné</actor>
+      </reparto>
+      <imagen>img/campanilla.jpg</imagen>
+    </pelicula>
+  </categoria>
+
+  <categoria nombre="Terror">
+    <pelicula id="P004">
+      <titulo>Expediente Warren: The Conjuring</titulo>
+      <anio>2013</anio>
+      <duracion>112</duracion>
+      <sinopsis>Los investigadores paranormales Ed y Lorraine Warren acuden a ayudar a una familia aterrorizada por una presencia oscura en una granja aislada de Rhode Island.</sinopsis>
+      <reparto>
+        <actor>Vera Farmiga</actor>
+        <actor>Patrick Wilson</actor>
+        <actor>Lili Taylor</actor>
+      </reparto>
+      <imagen>img/warren1.jpg</imagen>
+    </pelicula>
+
+    <pelicula id="P005">
+      <titulo>Expediente Warren: El caso Enfield</titulo>
+      <anio>2016</anio>
+      <duracion>134</duracion>
+      <sinopsis>El matrimonio Warren viaja al norte de Londres para investigar un caso de posesión demoníaca que afecta a una madre soltera y a sus cuatro hijos en su humilde vivienda.</sinopsis>
+      <reparto>
+        <actor>Vera Farmiga</actor>
+        <actor>Patrick Wilson</actor>
+        <actor>Madison Wolfe</actor>
+      </reparto>
+      <imagen>img/warren2.jpg</imagen>
+    </pelicula>
+
+    <pelicula id="P006">
+      <titulo>Expediente Warren: Obligado por el demonio</titulo>
+      <anio>2021</anio>
+      <duracion>112</duracion>
+      <sinopsis>Ed y Lorraine Warren se enfrentan a uno de los casos más impactantes de su carrera cuando un sospechoso de asesinato asegura haber actuado bajo posesión demoníaca.</sinopsis>
+      <reparto>
+        <actor>Patrick Wilson</actor>
+        <actor>Vera Farmiga</actor>
+        <actor>Ruairi O'Connor</actor>
+      </reparto>
+      <imagen>img/warren3.jpg</imagen>
+    </pelicula>
+  </categoria>
+
+  <categoria nombre="Acción">
+    <pelicula id="P007">
+      <titulo>Venom</titulo>
+      <anio>2018</anio>
+      <duracion>112</duracion>
+      <sinopsis>El periodista Eddie Brock investiga una corporación sospechosa y termina fusionándose con un simbionte alienígena que le otorga habilidades sobrehumanas y una personalidad violenta.</sinopsis>
+      <reparto>
+        <actor>Tom Hardy</actor>
+        <actor>Michelle Williams</actor>
+        <actor>Riz Ahmed</actor>
+      </reparto>
+      <imagen>img/venom1.jpg</imagen>
+    </pelicula>
+
+    <pelicula id="P008">
+      <titulo>Venom: Habrá matanza</titulo>
+      <anio>2021</anio>
+      <duracion>97</duracion>
+      <sinopsis>Mientras Eddie Brock intenta adaptarse a su convivencia con Venom, el asesino en serie Cletus Kasady se convierte en el huésped de Matanza, un simbionte aún más letal.</sinopsis>
+      <reparto>
+        <actor>Tom Hardy</actor>
+        <actor>Woody Harrelson</actor>
+        <actor>Michelle Williams</actor>
+      </reparto>
+      <imagen>img/venom2.jpg</imagen>
+    </pelicula>
+
+    <pelicula id="P009">
+      <titulo>Venom: El último baile</titulo>
+      <anio>2024</anio>
+      <duracion>109</duracion>
+      <sinopsis>Eddie y Venom emprenden una huida desesperada perseguidos tanto por fuerzas militares humanas como por criaturas procedentes del planeta natal del simbionte.</sinopsis>
+      <reparto>
+        <actor>Tom Hardy</actor>
+        <actor>Chiwetel Ejiofor</actor>
+        <actor>Juno Temple</actor>
+      </reparto>
+      <imagen>img/venom3.jpg</imagen>
+    </pelicula>
+  </categoria>
+
+  <categoria nombre="Risa">
+    <pelicula id="P010">
+      <titulo>Ocho apellidos vascos</titulo>
+      <anio>2014</anio>
+      <duracion>98</duracion>
+      <sinopsis>Rafa, un señorito sevillano que nunca ha salido de Andalucía, viaja al País Vasco para conquistar a Amaia y se ve obligado a hacerse pasar por vasco ante el padre de ella.</sinopsis>
+      <reparto>
+        <actor>Dani Rovira</actor>
+        <actor>Clara Lago</actor>
+        <actor>Karra Elejalde</actor>
+      </reparto>
+      <imagen>img/ocho_vascos.jpg</imagen>
+    </pelicula>
+
+    <pelicula id="P011">
+      <titulo>Ocho apellidos catalanes</titulo>
+      <anio>2015</anio>
+      <duracion>102</duracion>
+      <sinopsis>Cuando Amaia rompe con Rafa y se enamora de un joven catalán, su padre viaja hasta Sevilla para convencer a Rafa de ir juntos a Cataluña a impedir la boda.</sinopsis>
+      <reparto>
+        <actor>Dani Rovira</actor>
+        <actor>Clara Lago</actor>
+        <actor>Berto Romero</actor>
+      </reparto>
+      <imagen>img/ocho_catalanes.jpg</imagen>
+    </pelicula>
+
+    <pelicula id="P012">
+      <titulo>Ocho apellidos marroquís</titulo>
+      <anio>2023</anio>
+      <duracion>96</duracion>
+      <sinopsis>Tras la muerte de un empresario cántabro, su viuda y su hija viajan a Marruecos para recuperar el primer barco pesquero de la familia y cumplir su última voluntad.</sinopsis>
+      <reparto>
+        <actor>Julián López</actor>
+        <actor>Michelle Jenner</actor>
+        <actor>Elena Irureta</actor>
+      </reparto>
+      <imagen>img/ocho_marroquis.jpg</imagen>
+    </pelicula>
+  </categoria>
+
+</cartelera>

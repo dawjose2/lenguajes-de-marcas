@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0e111a;
+  color: #f1f5f9;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #1a2342 0%, #090c14 100%);
+  text-align: center;
+  padding: 2.5rem 1rem;
+  border-bottom: 2px solid #0063e5;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  color: #94a3b8;
+  font-size: 1.05rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.categoria {
+  margin-bottom: 3.5rem;
+}
+
+.categoria h2 {
+  font-size: 1.75rem;
+  color: #38bdf8;
+  border-left: 5px solid #0063e5;
+  padding-left: 0.75rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.grid-peliculas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 1.75rem;
+}
+
+.tarjeta {
+  background-color: #181e2e;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #28324b;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 99, 229, 0.25);
+}
+
+.poster {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  background-color: #0b0e17;
+}
+
+.poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.badge-id {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 99, 229, 0.9);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+}
+
+.info {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-grow: 1;
+}
+
+.info h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.metadatos {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  background-color: #111623;
+  padding: 0.45rem 0.75rem;
+  border-radius: 6px;
+}
+
+.sinopsis {
+  font-size: 0.95rem;
+  color: #e2e8f0;
+}
+
+.reparto {
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid #28324b;
+  font-size: 0.9rem;
+}
+
+.reparto ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.reparto li {
+  background-color: #232c42;
+  color: #bae6fd;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.82rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #090c14;
+  color: #64748b;
+  font-size: 0.9rem;
+  border-top: 1px solid #1e293b;
+}
